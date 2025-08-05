@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply-box">
+            <header>
+                <h1>
+                    Job Application <span class="title-small">(Web)</span>
+                </h1>
+            </header>
+
+            <main>
+                <form action="">
+                    <div class="form-container1">
+                        <div class="form-control">
+                            <p>First Name</p>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-control">
+                            <p>Last Name</p>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-control">
+                            <p>Email</p>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-control">
+                            <p>Job Role</p>
+                            <select name="job-role" id="job-role">
+                                <option value="">Select Job Role</option>
+                                <option value="frontend">Frontend Developer</option>
+                                <option value="backend">Backend Developer</option>
+                                <option value="full_stack">Full Stack Developer</option>
+                                <option value="ui_ux">UI UX Designer</option>
+                            </select>
+                        </div>
+                    </div>
+
+                        <div class="form-address">
+                            <p>Address</p>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+
+                    <div class="form-container1">
+                        <div class="form-control">
+                            <p>City</p>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-control">
+                            <p>Pincode</p>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-control">
+                            <p>Start Date</p>
+                            <input type="date">
+                        </div>
+
+                        <div class="form-control"
+                        id="cv-uplaoder">
+                            <p>Upload Your CV</p>
+                            <div class="cv-uplaoder">
+                                <button>Choose file</button>
+                                No file Chosen
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <button class="apply">Apply Now</button>
+            </footer>
+            
+        </div>
+    </div>
+</body>
+</html>
